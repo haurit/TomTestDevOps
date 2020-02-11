@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="TomData" max_length="40" name="x_snc_tomtestdevop_tomdata" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Tom Data" max_length="40" name="tom_data" type="string"/>
+    </element>
+</database>
