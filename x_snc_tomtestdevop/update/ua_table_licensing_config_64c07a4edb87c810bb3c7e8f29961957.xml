@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>tom.hauri</sys_created_by>
         <sys_created_on>2020-02-11 09:34:06</sys_created_on>
-        <sys_id>a5e53f0ddbc74810bb3c7e8f29961981</sys_id>
+        <sys_id>64c07a4edb87c810bb3c7e8f29961957</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_tomtestdevop_tomdata</sys_name>
         <sys_package display_value="TomTestDevOps" source="x_snc_tomtestdevop">09bc2097dbb64410bb3c7e8f299619f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="TomTestDevOps">09bc2097dbb64410bb3c7e8f299619f5</sys_scope>
-        <sys_update_name>ua_table_licensing_config_a5e53f0ddbc74810bb3c7e8f29961981</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_64c07a4edb87c810bb3c7e8f29961957</sys_update_name>
         <sys_updated_by>tom.hauri</sys_updated_by>
         <sys_updated_on>2020-02-11 09:34:06</sys_updated_on>
     </ua_table_licensing_config>
