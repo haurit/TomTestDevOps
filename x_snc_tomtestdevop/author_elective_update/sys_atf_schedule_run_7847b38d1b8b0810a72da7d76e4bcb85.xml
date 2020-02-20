@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule_run">
+    <sys_atf_schedule_run action="DELETE">
+        <active>true</active>
+        <browser_name>any</browser_name>
+        <browser_version/>
+        <description>Run suite 'TomTestDevOps' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description>
+        <order>100</order>
+        <os_name>any</os_name>
+        <os_version/>
+        <schedule display_value="CICD adhoc schedule">7047b38d1b8b0810a72da7d76e4bcb81</schedule>
+        <sys_class_name>sys_atf_schedule_run</sys_class_name>
+        <sys_created_by>tom.hauri</sys_created_by>
+        <sys_created_on>2020-02-17 10:41:03</sys_created_on>
+        <sys_id>7847b38d1b8b0810a72da7d76e4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="TomTestDevOps" source="x_snc_tomtestdevop">09bc2097dbb64410bb3c7e8f299619f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TomTestDevOps">09bc2097dbb64410bb3c7e8f299619f5</sys_scope>
+        <sys_update_name>sys_atf_schedule_run_7847b38d1b8b0810a72da7d76e4bcb85</sys_update_name>
+        <sys_updated_by>tom.hauri</sys_updated_by>
+        <sys_updated_on>2020-02-17 10:41:03</sys_updated_on>
+        <test_suite display_value="TomTestDevOps">45d07c1bdbb64410bb3c7e8f29961910</test_suite>
+        <watch_list/>
+    </sys_atf_schedule_run>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TomTestDevOps">09bc2097dbb64410bb3c7e8f299619f5</application>
+        <file_path/>
+        <instance_id>3bc532dddb73e740f492c597059619c5</instance_id>
+        <instance_name>empthauri1</instance_name>
+        <name>sys_atf_schedule_run_7847b38d1b8b0810a72da7d76e4bcb85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule_run"><sys_atf_schedule_run action="INSERT_OR_UPDATE"><active>true</active><browser_name>any</browser_name><browser_version/><description>Run suite 'TomTestDevOps' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description><order>100</order><os_name>any</os_name><os_version/><schedule display_value="CICD adhoc schedule">7047b38d1b8b0810a72da7d76e4bcb81</schedule><sys_class_name>sys_atf_schedule_run</sys_class_name><sys_created_by>tom.hauri</sys_created_by><sys_created_on>2020-02-17 10:41:03</sys_created_on><sys_id>7847b38d1b8b0810a72da7d76e4bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="TomTestDevOps" source="x_snc_tomtestdevop">09bc2097dbb64410bb3c7e8f299619f5</sys_package><sys_policy/><sys_scope display_value="TomTestDevOps">09bc2097dbb64410bb3c7e8f299619f5</sys_scope><sys_update_name>sys_atf_schedule_run_7847b38d1b8b0810a72da7d76e4bcb85</sys_update_name><sys_updated_by>tom.hauri</sys_updated_by><sys_updated_on>2020-02-17 10:41:03</sys_updated_on><test_suite display_value="TomTestDevOps">45d07c1bdbb64410bb3c7e8f29961910</test_suite><watch_list/></sys_atf_schedule_run></record_update>]]></payload>
+        <payload_hash>1679084736</payload_hash>
+        <record_name>100</record_name>
+        <reverted_from/>
+        <source>07f5770ddbc74810bb3c7e8f29961945</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.hauri</sys_created_by>
+        <sys_created_on>2020-02-17 10:41:04</sys_created_on>
+        <sys_id>4547778d1b8b0810a72da7d76e4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17052bcb6400000001</sys_recorded_at>
+        <sys_updated_by>tom.hauri</sys_updated_by>
+        <sys_updated_on>2020-02-17 10:41:04</sys_updated_on>
+        <type>Scheduled Suite Run</type>
+        <update_guid>0d47778d938b0810ba42ad272462988e</update_guid>
+        <update_guid_history>0d47778d938b0810ba42ad272462988e:1679084736</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.hauri</sys_created_by>
+        <sys_created_on>2020-02-17 10:41:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_schedule_run">sys_atf_schedule_run</sys_db_object>
+        <sys_id>16d4a0f01604416a8d41c650fc64bdd9</sys_id>
+        <sys_metadata>7847b38d1b8b0810a72da7d76e4bcb85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="TomTestDevOps" source="x_snc_tomtestdevop">09bc2097dbb64410bb3c7e8f299619f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TomTestDevOps">09bc2097dbb64410bb3c7e8f299619f5</sys_scope>
+        <sys_scope_delete display_value="">41478ef359a047919dfaf1145c411599</sys_scope_delete>
+        <sys_update_name>sys_atf_schedule_run_7847b38d1b8b0810a72da7d76e4bcb85</sys_update_name>
+        <sys_update_version display_value="sys_atf_schedule_run_7847b38d1b8b0810a72da7d76e4bcb85">4547778d1b8b0810a72da7d76e4bcb8f</sys_update_version>
+        <sys_updated_by>tom.hauri</sys_updated_by>
+        <sys_updated_on>2020-02-17 10:41:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
