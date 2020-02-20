@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_tomtestdevop.TomTestDevOps</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TomTestDevOps</name>
+        <script><![CDATA[var TomTestDevOps = Class.create();
+TomTestDevOps.prototype = {
+	initialize: function() {
+	},
+
+	getVersion: function() {
+		var sAppId = gs.getCurrentApplicationId();
+		var sAppName = gs.getCurrentScopeName();
+		var sVersion = 'N/A';
+		var grApp = new GlideRecord('sys_app');
+		if (grApp.get(sAppId)) {
+			sVersion = grApp.getValue('version');
+		} // if app
+		return sAppName + ' ' + sVersion;
+	}, // function getVersion
+
+	type: 'TomTestDevOps'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>tom.hauri</sys_created_by>
+        <sys_created_on>2020-02-11 09:39:07</sys_created_on>
+        <sys_id>775f2cd7dbb64410bb3c7e8f2996196c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>TomTestDevOps</sys_name>
+        <sys_package display_value="TomTestDevOps" source="x_snc_tomtestdevop">09bc2097dbb64410bb3c7e8f299619f5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TomTestDevOps">09bc2097dbb64410bb3c7e8f299619f5</sys_scope>
+        <sys_update_name>sys_script_include_775f2cd7dbb64410bb3c7e8f2996196c</sys_update_name>
+        <sys_updated_by>tom.hauri</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:43:51</sys_updated_on>
+    </sys_script_include>
+</record_update>
