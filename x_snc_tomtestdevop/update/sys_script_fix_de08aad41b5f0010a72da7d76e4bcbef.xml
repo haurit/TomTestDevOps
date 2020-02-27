@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>TomTestDevOps</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var _tomtest = new TomTestDevOps();
+gs.info('test: ' + _tomtest.getFullName());]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>tom.hauri</sys_created_by>
+        <sys_created_on>2020-02-27 07:15:57</sys_created_on>
+        <sys_id>de08aad41b5f0010a72da7d76e4bcbef</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>TomTestDevOps</sys_name>
+        <sys_package display_value="TomTestDevOps" source="x_snc_tomtestdevop">09bc2097dbb64410bb3c7e8f299619f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TomTestDevOps">09bc2097dbb64410bb3c7e8f299619f5</sys_scope>
+        <sys_update_name>sys_script_fix_de08aad41b5f0010a72da7d76e4bcbef</sys_update_name>
+        <sys_updated_by>tom.hauri</sys_updated_by>
+        <sys_updated_on>2020-02-27 07:17:59</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
